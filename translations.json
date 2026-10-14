@@ -1,0 +1,210 @@
+{
+  "ar": {
+    "app": {
+      "title": "صدقي لخامات الحلواني",
+      "headerTitle": "استوديو ملصقات المخزون - صدقي لخامات الحلواني",
+      "headerSubtitle": "أنشئ ملصقات المنتجات والباركود، واطبع باستخدام طابعة Xprinter XP-235B، وصدّر سجل الأصناف.",
+      "headerAuthor": "برمجة وتصميم: بيشوي مجدي",
+      "langSwitch": "English"
+    },
+    "section1": {
+      "title": "١. بيانات الصنف",
+      "notice": "مقاس الملصق المقترح: <strong>55 × 40 mm</strong>. تأكد من ضبط المقاس نفسه في إعدادات الطابعة. للمقاسات الأصغر، عدّل أبعاد الطباعة أدناه وفي إعدادات الطابعة.",
+      "hint": "تُنشأ الأكواد والباركود تلقائيًا بالتسلسل لتجنب تكرارها. يمكنك تعديل الكود يدويًا قبل إضافة الصنف."
+    },
+    "fields": {
+      "company": "اسم الشركة / المتجر",
+      "companyPlaceholder": "مثال: حلويات صدقي",
+      "companyDefault": "صدقي لخامات الحلواني",
+      "product": "اسم المنتج *",
+      "productPlaceholder": "اسم المنتج",
+      "code": "كود الصنف",
+      "codePlaceholder": "يُنشأ تلقائيًا",
+      "price": "السعر (جنيه مصري) *",
+      "pricePlaceholder": "0.00",
+      "quantity": "عدد الملصقات للطباعة",
+      "barcodeValue": "قيمة الباركود",
+      "barcodePlaceholder": "يستخدم كود الصنف تلقائيًا",
+      "category": "التصنيف (اختياري)",
+      "categoryPlaceholder": "مثال: بسكويت",
+      "sku": "رمز المخزون / المرجع (اختياري)",
+      "skuPlaceholder": "مرجع داخلي",
+      "expiry": "تاريخ الصلاحية (اختياري)",
+      "labelWidth": "عرض الملصق (مم)",
+      "labelHeight": "ارتفاع الملصق (مم)",
+      "showCompany": "إظهار اسم الشركة على الملصق",
+      "showCategory": "إظهار التصنيف / رمز المخزون / الصلاحية عند توفرها"
+    },
+    "buttons": {
+      "generateCode": "إنشاء الكود والباركود",
+      "addItem": "إضافة الصنف إلى السجل",
+      "clearFields": "مسح الحقول",
+      "printCurrent": "طباعة الملصق الحالي",
+      "printSelected": "طباعة الأصناف المحددة",
+      "exportExcel": "تصدير Excel (.xlsx)",
+      "exportCsv": "تصدير CSV",
+      "exportPdf": "تصدير PDF",
+      "clearLog": "مسح السجل",
+      "preview": "معاينة",
+      "delete": "حذف"
+    },
+    "section2": {
+      "title": "٢. معاينة الملصق والطباعة",
+      "printHint": "نصيحة للطباعة: اختر طابعة Xprinter XP-235B من نافذة الطباعة، واضبط المقياس على 100% / الحجم الفعلي، وأوقف الرؤوس والتذييلات، واختر مقاس الورق المطابق للملصق. استخدم معايرة الطابعة إذا لم تكن المحاذاة دقيقة.",
+      "logHint": "يُحفظ سجل الأصناف في هذا المتصفح على هذا الجهاز. صدّر نسخة احتياطية بانتظام. تتطلب وظائف تصدير Excel وPDF اتصالًا بالإنترنت لتحميل المكتبات اللازمة."
+    },
+    "labelPreview": {
+      "defaultProduct": "اسم المنتج",
+      "codePrefix": "الكود: ",
+      "currency": "EGP ",
+      "skuPrefix": "رمز المخزون: ",
+      "expiryPrefix": "الصلاحية: "
+    },
+    "table": {
+      "selectAll": "تحديد جميع الأصناف",
+      "code": "الكود",
+      "product": "المنتج",
+      "price": "السعر",
+      "quantity": "الكمية",
+      "actions": "الإجراءات",
+      "empty": "لا توجد أصناف بعد. أضف صنفًا لبدء السجل.",
+      "itemsCountZero": "لا توجد أصناف في السجل",
+      "itemsCountOne": "صنف واحد في السجل",
+      "itemsCountTwo": "صنفان في السجل",
+      "itemsCountFew": "{count} أصناف في السجل",
+      "itemsCountMany": "{count} صنفًا في السجل"
+    },
+    "alerts": {
+      "enterProduct": "أدخل اسم المنتج.",
+      "enterCode": "أنشئ كود الصنف أو أدخله.",
+      "enterValidPrice": "أدخل سعرًا صحيحًا بالجنيه المصري.",
+      "barcodeLibFailed": "تعذر تحميل مكتبة الباركود",
+      "barcodeError": "خطأ في إنشاء الباركود",
+      "selectAtLeastOne": "حدد صنفًا واحدًا على الأقل أو أضف صنفًا أولًا.",
+      "noItemsToExport": "لا توجد أصناف لتصديرها.",
+      "excelLibFailed": "تعذر تحميل مكتبة Excel. تحقق من اتصال الإنترنت.",
+      "pdfLibFailed": "تعذر تحميل مكتبة PDF. تحقق من اتصال الإنترنت.",
+      "codeExistsConfirm": "كود هذا الصنف موجود بالفعل. هل تريد إضافته على أي حال؟",
+      "clearLogConfirm": "هل أنت متأكد من مسح جميع الأصناف من السجل؟ صدّر نسخة احتياطية أولًا إذا لزم الأمر."
+    },
+    "exportHeaders": {
+      "company": "الشركة",
+      "product": "المنتج",
+      "code": "الكود",
+      "barcode": "الباركود",
+      "price": "السعر (جنيه)",
+      "quantity": "الكمية",
+      "category": "التصنيف",
+      "sku": "رمز المخزون",
+      "expiry": "الصلاحية",
+      "width": "عرض الملصق (مم)",
+      "height": "ارتفاع الملصق (مم)",
+      "createdAt": "تاريخ الإضافة",
+      "pdfTitle": "أصناف ملصقات المخزون"
+    }
+  },
+  "en": {
+    "app": {
+      "title": "Seky Pastry Supplies",
+      "headerTitle": "Inventory Label Studio - Seky Pastry Supplies",
+      "headerSubtitle": "Generate product labels & barcodes, print with Xprinter XP-235B, and export item logs.",
+      "headerAuthor": "Designed & Developed by: Bishoy Magdy",
+      "langSwitch": "العربية"
+    },
+    "section1": {
+      "title": "1. Item Details",
+      "notice": "Recommended label size: <strong>55 × 40 mm</strong>. Make sure the printer driver is set to the same size. For smaller sizes, adjust label dimensions below and in printer settings.",
+      "hint": "Item codes and barcodes are auto-generated sequentially to avoid duplicates. You can also edit the code manually before adding the item."
+    },
+    "fields": {
+      "company": "Company / Store Name",
+      "companyPlaceholder": "e.g., Seky Sweets",
+      "companyDefault": "Seky Pastry Supplies",
+      "product": "Product Name *",
+      "productPlaceholder": "Product Name",
+      "code": "Item Code",
+      "codePlaceholder": "Auto-generated",
+      "price": "Price (EGP) *",
+      "pricePlaceholder": "0.00",
+      "quantity": "Label Quantity to Print",
+      "barcodeValue": "Barcode Value",
+      "barcodePlaceholder": "Uses item code automatically",
+      "category": "Category (Optional)",
+      "categoryPlaceholder": "e.g., Biscuits",
+      "sku": "SKU / Reference (Optional)",
+      "skuPlaceholder": "Internal reference",
+      "expiry": "Expiry Date (Optional)",
+      "labelWidth": "Label Width (mm)",
+      "labelHeight": "Label Height (mm)",
+      "showCompany": "Show company name on label",
+      "showCategory": "Show category / SKU / expiry when available"
+    },
+    "buttons": {
+      "generateCode": "Generate Code & Barcode",
+      "addItem": "Add Item to Log",
+      "clearFields": "Clear Fields",
+      "printCurrent": "Print Current Label",
+      "printSelected": "Print Selected Items",
+      "exportExcel": "Export Excel (.xlsx)",
+      "exportCsv": "Export CSV",
+      "exportPdf": "Export PDF",
+      "clearLog": "Clear Log",
+      "preview": "Preview",
+      "delete": "Delete"
+    },
+    "section2": {
+      "title": "2. Label Preview & Printing",
+      "printHint": "Print Tip: Select Xprinter XP-235B in the print dialog, set scale to 100% / Actual Size, disable headers & footers, and choose the matching paper size. Use printer calibration if alignment is off.",
+      "logHint": "Item log is stored locally in this browser on this device. Export regular backups. Excel & PDF export features require an internet connection to load required libraries."
+    },
+    "labelPreview": {
+      "defaultProduct": "Product Name",
+      "codePrefix": "Code: ",
+      "currency": "EGP ",
+      "skuPrefix": "SKU: ",
+      "expiryPrefix": "EXP: "
+    },
+    "table": {
+      "selectAll": "Select all items",
+      "code": "Code",
+      "product": "Product",
+      "price": "Price",
+      "quantity": "Qty",
+      "actions": "Actions",
+      "empty": "No items yet. Add an item to start the log.",
+      "itemsCountZero": "No items logged",
+      "itemsCountOne": "1 item logged",
+      "itemsCountTwo": "2 items logged",
+      "itemsCountFew": "{count} items logged",
+      "itemsCountMany": "{count} items logged"
+    },
+    "alerts": {
+      "enterProduct": "Please enter a product name.",
+      "enterCode": "Please generate or enter an item code.",
+      "enterValidPrice": "Please enter a valid price in EGP.",
+      "barcodeLibFailed": "Failed to load barcode library",
+      "barcodeError": "Barcode generation error",
+      "selectAtLeastOne": "Please select at least one item or add an item first.",
+      "noItemsToExport": "No items to export.",
+      "excelLibFailed": "Failed to load Excel library. Please check your internet connection.",
+      "pdfLibFailed": "Failed to load PDF library. Please check your internet connection.",
+      "codeExistsConfirm": "This item code already exists. Do you want to add it anyway?",
+      "clearLogConfirm": "Are you sure you want to delete all logged items from this browser? Export a backup first if needed."
+    },
+    "exportHeaders": {
+      "company": "Company",
+      "product": "Product",
+      "code": "Code",
+      "barcode": "Barcode",
+      "price": "Price (EGP)",
+      "quantity": "Quantity",
+      "category": "Category",
+      "sku": "SKU",
+      "expiry": "Expiry Date",
+      "width": "Label Width (mm)",
+      "height": "Label Height (mm)",
+      "createdAt": "Created At",
+      "pdfTitle": "Inventory Label Items"
+    }
+  }
+}

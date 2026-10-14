@@ -1,0 +1,59 @@
+{
+  "name": "seky-barcode-desktop",
+  "version": "1.0.0",
+  "description": "Seky Barcode desktop inventory label application",
+  "main": "main.js",
+  "author": "Seky Barcode",
+  "license": "UNLICENSED",
+  "scripts": {
+    "start": "electron .",
+    "build:backend": "powershell -NoProfile -ExecutionPolicy Bypass -File scripts/build-backend.ps1",
+    "dist:win": "powershell -NoProfile -ExecutionPolicy Bypass -File scripts/build-backend.ps1 && electron-builder --win nsis"
+  },
+  "build": {
+    "appId": "com.seky.barcode",
+    "productName": "Seky Barcode",
+    "directories": {
+      "buildResources": "assets",
+      "output": "release"
+    },
+    "files": [
+      "main.js",
+      "package.json"
+    ],
+    "extraResources": [
+      {
+        "from": "backend/SekyBarcodeBackend.exe",
+        "to": "backend/SekyBarcodeBackend.exe"
+      },
+      {
+        "from": "assets/seky-barcode.ico",
+        "to": "assets/seky-barcode.ico"
+      }
+    ],
+    "win": {
+      "icon": "assets/seky-barcode.ico",
+      "target": [
+        "nsis"
+      ]
+    },
+    "nsis": {
+      "oneClick": false,
+      "perMachine": false,
+      "allowElevation": false,
+      "allowToChangeInstallationDirectory": true,
+      "createDesktopShortcut": true,
+      "createStartMenuShortcut": true,
+      "shortcutName": "Seky Barcode",
+      "deleteAppDataOnUninstall": false,
+      "runAfterFinish": true
+    },
+    "artifactName": "SekyBarcode-Setup.${ext}",
+    "asar": true,
+    "compression": "normal"
+  },
+  "devDependencies": {
+    "electron": "^44.7.0",
+    "electron-builder": "^26.15.3"
+  }
+}

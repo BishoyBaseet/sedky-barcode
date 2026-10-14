@@ -1,0 +1,4 @@
+packages: []
+allowBuilds:
+  electron-builder: true
+  electron-winstaller: false

@@ -1,0 +1,13 @@
+Seky Barcode bundles the following browser libraries for offline use:
+
+JsBarcode 3.11.6
+Project: https://github.com/lindell/JsBarcode
+License: MIT
+License text: JsBarcode-LICENSE.txt
+
+SheetJS Community Edition (xlsx) 0.18.5
+Project: https://github.com/SheetJS/sheetjs
+License: Apache License 2.0
+License text: SheetJS-LICENSE.txt
+
+These libraries are used by the app's barcode and Excel export features.

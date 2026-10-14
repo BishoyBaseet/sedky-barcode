@@ -1,0 +1,52 @@
+# Dependencies and package-manager state
+node_modules/
+.pnpm-store/
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+
+# Electron and Windows build output
+release/
+dist/
+build/
+backend_build/
+backend/*.exe
+backend/*.dll
+*.blockmap
+*.exe
+
+# Local application data and backups (may contain private inventory)
+*.sqlite3
+*.sqlite3-wal
+*.sqlite3-shm
+*.sqlite
+*.db
+database_backups/
+**/database_backups/
+backend_smoke_data/
+backend_smoke_data_*/
+*.json.backup
+*backup*.json
+*Backup*.json
+
+# Python build/runtime files
+__pycache__/
+*.py[cod]
+*.spec
+venv/
+.venv/
+
+# Local environment/secrets
+.env
+.env.*
+!.env.example
+
+# OS/editor/diagnostic clutter
+.DS_Store
+Thumbs.db
+desktop.ini
+*.log
+*.tmp
+*.bak
+.vscode/
+.idea/
